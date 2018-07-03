@@ -1,7 +1,11 @@
-body {
-  max-width: 1020px
+
+main{
+  max-width: 1020px;
   margin: auto;
-  position:
+  display: block;
+}
+
+body {
   background: #f0f8ff;
 }
 
@@ -12,8 +16,13 @@ header {
   width: 1000px;
   height: 70px;
   border-bottom: 3px solid midnightblue;
-
 }
+
+nav {
+  margin: auto;
+  display: block;
+}
+
 nav a {
   float: left;
   font-family: 'Lato', sans-serif;
@@ -29,7 +38,7 @@ nav a:hover {
     color: white;
   }
 
-.logo {
+#logo {
     font-family: 'Lato', sans-serif;
     color: midnightblue;
     float: left;
@@ -44,16 +53,6 @@ nav a:hover {
   margin-right: 0;
 }
 
-section > img {
-  float: left;
-  margin-right: 10px;
-  width: 500px
-}
-
-article.right{
-  float: left;
-  width: 500px
-}
 h1 {
   font-family: 'Scope One', serif;
   color: midnightblue;
@@ -77,8 +76,8 @@ p {
 
 #centered {
     margin: auto;
+    display: block;
     background: white;
-    width: 1000px;
     height: auto;
     text-align: center;
 }
@@ -88,6 +87,7 @@ footer {
   text-align: center;
   background: deepskyblue;
   position: center;
+  margin: auto;
   width: 1000px;
   height: 200px;
   border-top: 3px solid midnightblue;
